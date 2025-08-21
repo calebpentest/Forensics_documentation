@@ -96,6 +96,70 @@ The unused space in a disk cluster between the end of a file and the end of the 
 
 A method of concealing data within other seemingly innocuous files, such as hiding text in an image or audio file. Detecting steganography is part of advanced forensic analysis.
 
+
+---
+
+
+## **Computer Forensics – Terminology (Expanded)**
+
+### **Artifact**
+
+Any piece of digital evidence that can provide insight into user activity. Examples include browser history, log files, registry entries, and chat logs.
+
+---
+
+### **Registry (Windows)**
+
+A hierarchical database that stores low-level settings for the operating system and applications. Forensic analysis of the registry can reveal installed programs, user preferences, USB usage, and more.
+
+---
+
+### **Master File Table (MFT)**
+
+Used in NTFS file systems, the MFT keeps track of all files and directories on a volume. It contains metadata about each file, including name, size, and timestamps — critical for timeline and file activity analysis.
+
+---
+
+### **Pagefile / Swap File**
+
+A file on disk used by the operating system as virtual memory. It may contain remnants of files, passwords, or other sensitive information spilled from RAM.
+
+---
+
+### **Prefetch Files (Windows)**
+
+Files that track application launch history and performance. They can help determine when and how often a program was run.
+
+---
+
+### **Shellbags**
+
+Registry artifacts that record folder view settings in Windows Explorer. They can show a user accessed specific directories, even if those directories were later deleted.
+
+---
+
+### **Jump Lists**
+
+Files in Windows that store information about recently and frequently opened items for pinned applications. Useful for showing recent file access.
+
+---
+
+### **Event Logs**
+
+Windows Event Viewer logs system, security, and application events. Analyzing event logs helps trace user logins, software installations, system errors, and more.
+
+---
+
+### **Recycle Bin**
+
+When files are deleted, they’re often moved to the Recycle Bin. Forensic tools can recover these files and their deletion metadata.
+
+---
+
+### **Link Files (.lnk)**
+
+Shortcut files in Windows that can indicate when a file or application was accessed. They often retain metadata about the target file.
+
 ---
 
 
