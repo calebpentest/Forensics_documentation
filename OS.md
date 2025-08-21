@@ -19,7 +19,7 @@
    * Windows allows only limited customization (themes, wallpapers, third-party tools).
    * Linux allows deep customization: desktop environments (GNOME, KDE, XFCE, etc.), window managers, ricing (making your desktop look unique with polybar, dmenu, custom themes).
 
-### Extra points not in the comment:
+### Extra points:
 
 * **Security**: Linux is generally more secure by design. No need for heavy antivirus.
 * **Open source**: Code transparency, community support, and free software.
