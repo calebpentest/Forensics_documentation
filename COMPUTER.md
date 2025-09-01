@@ -47,5 +47,3 @@ How NTFS deletion and recovery works:
 * `ntfsundelete` (Linux) for direct recovery.
 
 **Key idea:** In NTFS, “delete” usually just means “mark as free.” The data persists until overwritten, which is why fast imaging of the disk is critical in forensics.
-
-Do you want me to also map this visually with a **diagram of MFT → deletion → recovery** so you can see the process clearly?
